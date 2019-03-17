@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:scrollbars="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/b1"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="USERNAME"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_person_white_24dp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="EMAIL ADDRESS"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_email_white_24dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="PASSWORD"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textColorLink="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_lock_white_24dp"
+        />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="date"
+        android:hint="DATE OF BIRTH"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textColorLink="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_date_range_white_24dp"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColorHint="@color/white"
+        android:hint="PHONE NUMBER"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textColorLink="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_call_white_24dp"/>
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/b"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
